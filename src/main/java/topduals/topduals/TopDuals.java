@@ -1,5 +1,6 @@
 package topduals.topduals;
 
+import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class TopDuals extends JavaPlugin {
@@ -13,6 +14,8 @@ public final class TopDuals extends JavaPlugin {
     @Override
     public void onDisable() {
         saveDefaultConfig();
-        getConfig();
+        Bukkit.getLogger().info("WTF");
+        Bukkit.getLogger().info("WTF");
+        Bukkit.getLogger().info("WTF");
     }
 }

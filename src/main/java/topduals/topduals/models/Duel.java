@@ -13,6 +13,15 @@ public class Duel {
         this.enemy = enemy;
         this.name = name;
     }
+    public Player getEnemy(Player player) {
+        if(player == owner) {
+            return enemy;
+        } else if(player == enemy) {
+            return owner;
+        } else {
+            throw new IllegalArgumentException();
+        }
+    }
 
     public void SetWinner(Player player) {
         winner = player;

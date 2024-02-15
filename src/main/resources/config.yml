@@ -1,0 +1,4 @@
+command:
+  duals:
+    description: Вызвать игрока на дуэль!
+    usage: /duals

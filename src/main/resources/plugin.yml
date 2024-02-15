@@ -1,0 +1,3 @@
+name: TopDuals
+version: '${project.version}'
+main: topduals.topduals.TopDuals

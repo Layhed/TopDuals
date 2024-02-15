@@ -12,6 +12,6 @@ public final class TopDuals extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+        saveDefaultConfig();
     }
 }
